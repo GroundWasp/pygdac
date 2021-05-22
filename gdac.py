@@ -44,9 +44,9 @@ if __name__ == '__main__':
             # Sell
             data = {"pair":"USDT/KRW","side":"S","price":"3000.0000","quantity":"1.0000"}
             print(type(data))
-            print("파실 가격")
+            print("Sell Price")
             data["price"] = input()
-            print("파실 수량")
+            print("Sell Count [ex.1.0000]")
             data["quantity"] = input()
 
             print(data)
